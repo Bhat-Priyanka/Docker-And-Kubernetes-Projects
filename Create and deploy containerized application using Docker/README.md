@@ -33,22 +33,22 @@ The goal of this project is to show how Docker can be used in development, CI/CD
 
 #### 1. Run Mongo containers on local machine:
 1.	Pull MongoDB and MongoDB express from Docker Hub:
-    i.	Use below commands in the terminal:
+    *	Use below commands in the terminal:
         </br><code>docker pull mongo</code>
         </br><code>docker pull mongo-express</code>
-    ii.	Make sure you have the above two images by entering the command:
+    *	Make sure you have the above two images by entering the command:
         </br><code>docker images</code>
-    iii.	Run Mongo and Mongo Express containers:
-        i.	Run Mongo on port 27017 on both host and Docker and Mongo Express on port 8081 on both host and Docker by using the file <a href="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/docker-compose.yaml" target="_blank">docker-compose.yaml</a>.
-        ii.	Run the following command from the directory where docker-compose-yml is located.
+    * Run Mongo and Mongo Express containers:
+        * Run Mongo on port 27017 on both host and Docker and Mongo Express on port 8081 on both host and Docker by using the file <a href="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/docker-compose.yaml" target="_blank">docker-compose.yaml</a>.
+        * Run the following command from the directory where docker-compose-yml is located.
             </br><code>docker compose up</code>
-    iv.	Once done, go to Docker desktop and verify if the containers are running.
+    *	Once done, go to Docker desktop and verify if the containers are running.
   	<img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Containers.png" width="800">
 
-  	v.	Open the browser and go to http://localhost:8081. Login using “admin:password” and you should be able to see Mongo-Express page.
+  	*	Open the browser and go to http://localhost:8081. Login using “admin:password” and you should be able to see Mongo-Express page.
   	<img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Express.png" width="800">
 
-  	vi.	Create a new database:
+  	*	Create a new database:
         a.	Go to Mongo-Express page and create a new database by the name “user-account”.
         b.	Create a collection called ‘users’ inside “user-account” database.
 
