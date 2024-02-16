@@ -43,9 +43,9 @@ The goal of this project is to show how Docker can be used in development, CI/CD
         * Run the following command from the directory where docker-compose-yml is located.
             </br><code>docker compose up</code>
     *	Once done, go to Docker desktop and verify if the containers are running.
-  	<img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Containers.png" width="800">
+  	* <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Containers.png" width="800">
   	*	Open the browser and go to http://localhost:8081. Login using “admin:password” and you should be able to see Mongo-Express page.  	
-    <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Express.png" width="800">  
+    * <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Express.png" width="800">  
   	*	Create a new database:
         * Go to Mongo-Express page and create a new database by the name “user-account”.
         * Create a collection called ‘users’ inside “user-account” database.
