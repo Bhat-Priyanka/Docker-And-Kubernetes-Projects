@@ -63,7 +63,7 @@ The goal of this project is to show how Docker can be used in development, CI/CD
 
 #### 3. Create a new Docker image:
 1.	Build docker file:
-    a.	In the same directory as <a href="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Dockerfile.txt" target="_blank">Dockerfile.txt</a>, run the following command:
+    a.	In the same directory as <a href="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Dockerfile" target="_blank">Dockerfile.txt</a>, run the following command:
         </br><code>docker build -t my-app:1.0 .</code>
 2.	By running the following command, check that image has been created for my-app.
         </br><code>docker ps</code>
