@@ -10,7 +10,7 @@ The goal of this project is to show how Docker can be used in development, CI/CD
 
 1.	Docker and node js installed on local machine. 
 2.	AWS CLI installed and configured.
-3.	Source code for the project downloaded from <a href="https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/tree/master" target="_blank">link</a>
+3.	Source code for the project downloaded from <a href="https://gitlab.com/nanuchi/techworld-js-docker-demo-app/-/tree/master" target="_blank">link.</a>
   
 ### Architecture diagram:
 
