@@ -52,14 +52,14 @@ The goal of this project is to show how Docker can be used in development, CI/CD
 
 #### 2. Build and run Javascript application locally:
 1.	Start the application locally:
-    a.	Go to the directory where the source code is present and run the following commands.
+    *	Go to the directory where the source code is present and run the following commands.
         </br><code>npm install</code>
         </br><code>node server.js</code>
-    b.	Go to the browser and check if the app is running -> http://localhost:3000
+    * Go to the browser and check if the app is running -> http://localhost:3000
 2.	Create new entries in the database:
-    a.	Using the app -> Edit profile -> create new entries in the database.
-    b.	Check the Docker logs and Mongo-Express UI that new entries have been received.
-  	<img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Users.png" width="800">
+    * Using the app -> Edit profile -> create new entries in the database.
+    * Check the Docker logs and Mongo-Express UI that new entries have been received.
+  	* <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Users.png" width="800">
 
 #### 3. Create a new Docker image:
 1.	Build docker file:
