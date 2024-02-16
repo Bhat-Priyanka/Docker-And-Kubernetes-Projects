@@ -25,8 +25,8 @@ The goal of this project is to show how Docker can be used in development, CI/CD
 3. Create a new Docker image:
    * In this step, Docker file is built and new image is created.
 4. Push Docker image to AWS ECR:
-   * In this step, a new private repository will be created on AWS ECR and the image will be pushed. 
-5.	Deploy containerized image locally:
+   * In this step, a new private repository will be created on AWS ECR and the image will be pushed.
+5. Deploy containerized image locally::
    * In this step, the image will be pulled from ECR and container is created locally.
 
 ### Steps to follow:
