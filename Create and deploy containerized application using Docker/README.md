@@ -72,16 +72,16 @@ The goal of this project is to show how Docker can be used in development, CI/CD
 
 #### 4. Push Docker image to AWS ECR
 1.	Create private repository on Docker on AWS:
-    a.	Go to AWS Console -> ECR -> “Create repository” -> name it as “my-app”.
-   <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/ECR.png" width="800">
+    * Go to AWS Console -> ECR -> “Create repository” -> name it as “my-app”.
+    * <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/ECR.png" width="800">
 
 2.	Push the image to AWS ECR repository:
-    i.	Click on “View push commands”.
-    ii.	Run the first command to authenticate yourself.
-    iii.	Run the third command to add the tag to the image.
-    iv.	Run the fourth command to push the image to the ECR repository.
+    * Click on “View push commands”.
+    * Run the first command to authenticate yourself.
+    * Run the third command to add the tag to the image.
+    * Run the fourth command to push the image to the ECR repository.
 3.	Go back to the repository and check that the image was pushed.
-    <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Push.png" width="800">
+    * <img src="https://github.com/Bhat-Priyanka/Docker-Projects/blob/main/Create%20and%20deploy%20containerized%20application%20using%20Docker/Images/Push.png" width="800">
 
 #### 5.	Deploy containerized image locally:
 1.	Open docker-compose.yaml file and uncomment the lines under “services” to pull the container image from AWS ECR repository.
