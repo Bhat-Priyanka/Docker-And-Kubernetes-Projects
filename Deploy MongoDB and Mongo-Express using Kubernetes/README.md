@@ -51,4 +51,4 @@ Docker, kubectl, and minikube installed.
     * It opens Mongo-Express browser page.
 
 ### Conclusion:
-If any changes have been made to MongoDB using Mongo-Express web page, the request will be forwarded to Mongo-Express external service and it will forward to Mongo Express Pod and then it will be connected to MongoDB internal service and then MongoDB Pod.
+If any changes have been made to MongoDB using Mongo-Express web page, the request will be forwarded to Mongo-Express external service and it will be forwarded to Mongo Express Pod and then it will be connected to MongoDB internal service and then to MongoDB Pod.
