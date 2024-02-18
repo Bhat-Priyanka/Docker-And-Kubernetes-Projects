@@ -18,7 +18,7 @@ Docker, kubectl, and minikube installed.
   
 ### Browser request flow diagram:
 
-<img src="https://github.com/Bhat-Priyanka/Docker-And-Kubernetes-Projects/blob/main/Deploy%20MongoDB%20and%20Mongo-Express%20using%20Kubernetes/Images/K8.png" width="800">
+<img src="https://github.com/Bhat-Priyanka/Docker-And-Kubernetes-Projects/blob/main/Deploy%20MongoDB%20and%20Mongo-Express%20using%20Kubernetes/Images/K8.png" width="400">
 
 ### The main steps involved are as below:
 1.	Create secret:
