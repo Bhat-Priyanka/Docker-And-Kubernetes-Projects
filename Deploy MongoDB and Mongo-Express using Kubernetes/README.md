@@ -18,7 +18,7 @@ Docker, kubectl, and minikube installed.
   
 ### Browser request flow diagram:
 
-<img src="https://github.com/Bhat-Priyanka/Docker-And-Kubernetes-Projects/blob/main/Deploy%20MongoDB%20and%20Mongo-Express%20using%20Kubernetes/Images/K8.png" width="400">
+<img src="https://github.com/Bhat-Priyanka/Docker-And-Kubernetes-Projects/blob/main/Deploy%20MongoDB%20and%20Mongo-Express%20using%20Kubernetes/Images/K8.png" width="200">
 
 ### The main steps involved are as below:
 1.	Create secret:
@@ -50,3 +50,5 @@ Docker, kubectl, and minikube installed.
     </br><code>minikube service mongo-express-service</code>
     * It opens Mongo-Express browser page.
 
+### Conclusion:
+If any changes have been made to MongoDB using Mongo-Express web page, the request will be forwarded to Mongo-Express external service and it will forward to Mongo Express Pod and then it will be connected to MongoDB internal service and then MongoDB Pod.
