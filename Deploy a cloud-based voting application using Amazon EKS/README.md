@@ -152,7 +152,6 @@ AWS account
     --type=LoadBalancer \
     --port=80 \
     --target-port=8080
-
    kubectl get svc</code>
 * Go to EC2-> Load balancer and check that new load balancer have been created.
 
